@@ -27,5 +27,5 @@ next, copy these three packages to `/catkin_ws/src` and<br>
   
 ## Show results
 
-* ![img1 load error](https://github.com/FanKaii/ros_people_detect/blob/master/image/img1.png)
+  ![img1 load error](https://github.com/FanKaii/ros_people_detect/blob/master/image/img1.png)
   ![img1 load error](https://github.com/FanKaii/ros_people_detect/blob/master/image/img2.png)
