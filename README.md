@@ -9,7 +9,7 @@ A ros warpper for jetson-inference people detect
 
 ### 2.Create a workspace and compile
 `mkdir -p ~/catkin_ws/src`<br>
-next, copy this three packages to `/catkin_ws/src` and<br>
+next, copy these three packages to `/catkin_ws/src` and<br>
 `catkin_make`<br>
 
 ## Usage 
