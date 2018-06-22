@@ -1,0 +1,16 @@
+<launch>
+
+  <!-- people detect test node -->
+
+  <!-- topics -->
+    <arg name="image_topic"     default="/image_pub/image" />
+    <arg name="targets_topic"     default="/people_detect/targets" />
+    <arg name="tracker_target_topic"     default="/ros_kcf/kcf_track_object" />
+
+    <node name="people_detect_test" pkg="people_detect_test" type="people_detect_test" ns="people_detect_test">
+        <remap from="image" to="$(arg image_topic)"/>
+        <remap from="targets" to="$(arg targets_topic)"/>
+        <remap from="tracker_target" to="$(arg tracker_target_topic)"/>
+    </node>
+
+</launch>

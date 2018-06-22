@@ -1,0 +1,24 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.11",
+    "creation time": "2016-11-23 11:31:47.072693",
+    "dataset_id": "20161123-110730-5093",
+    "deploy file": "deploy.prototxt",
+    "digits version": "5.1-dev",
+    "framework": "caffe",
+    "id": "20161123-113147-1412",
+    "image dimensions": [
+        281,
+        500,
+        3
+    ],
+    "job id": "20161123-113147-1412",
+    "mean file": "",
+    "model file": "original.prototxt",
+    "name": "FNC-PASCAL-VOC-GROUPLESS-PRETRAINED-100-20161123",
+    "snapshot file": "snapshot_iter_146400.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Error",
+    "train_val file": "train_val.prototxt",
+    "username": "dusty"
+}

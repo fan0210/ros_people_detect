@@ -1,0 +1,19 @@
+<launch>
+  <!-- people detect node -->
+  
+  <!-- topics -->
+    <arg name="image_topic"     default="/image_pub/image" />
+    <arg name="detect_control_service"     default="/track_control/stop_detecting" />
+    <arg name="start_tracking_service"      default="/track_control/start_tracking" />
+
+    <node name="people_detect_node" pkg="people_detect" type="people_detect_node" ns="people_detect">
+        <remap from="image" to="$(arg image_topic)" />
+
+        <remap from="target" to="target" />
+        <remap from="detected_targets" to="targets" />
+
+        <remap from="cmd_stop_or_start" to="$(arg detect_control_service)" />
+        <remap from="cmd_start_tracking" to="$(arg start_tracking_service)" />
+    </node>
+
+</launch>
