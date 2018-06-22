@@ -7,7 +7,7 @@ A ros warpper for jetson-inference people detect
 * [ROS](http://wiki.ros.org/ROS/Installation)
 * [jetson-inference](https://github.com/dusty-nv/jetson-inference)
 
-### 2.Building workspace and compile
+### 2.Create a workspace and compile
 `mkdir -p ~/catkin_ws/src`<br>
 next, copy this three packages to `/catkin_ws/src` and<br>
 `catkin_make`<br>
@@ -25,7 +25,7 @@ next, copy this three packages to `/catkin_ws/src` and<br>
 
   `roslaunch people_detect_test people_detect_test.launch`
   
-## Show result
+## Show results
 
 * ![img1 load error](https://github.com/FanKaii/ros_people_detect/blob/master/image/img1.png)
   ![img1 load error](https://github.com/FanKaii/ros_people_detect/blob/master/image/img2.png)
